@@ -7,6 +7,8 @@
 //
 
 #import "PreviewWindowController.h"
+#import "CreolePlugin.h"
+#import <WebKit/WebKit.h>
 
 @interface PreviewWindowController ()
 
@@ -14,9 +16,11 @@
 @end
 
 @implementation PreviewWindowController
+
+NSString *const kWindowSaveName = @"CreoleWikiPreviewWindow";
+
 @synthesize webView = _webView
 , plugin = _plugin
-, isWindowOpened = _isWindowOpened
 ;
 
 - (id)initWithPlugin:(CreolePlugin *)plugin {
@@ -27,17 +31,21 @@
 }
 
 - (void)windowDidLoad {
-  [super windowDidLoad];
   self.window.level = NSStatusWindowLevel;
+  self.window.frameAutosaveName = kWindowSaveName;
+  [super windowDidLoad];
+}
+
+- (void)windowDidMove: (NSNotification *)aNotification {
+  [self.window saveFrameUsingName:kWindowSaveName];
 }
 
 - (void)showWindow:(id)sender {
   [super showWindow:sender];
-  _isWindowOpened = YES;
 }
 
 - (void)windowWillClose:(NSNotification *)notification {
-  _isWindowOpened = NO;
+  [self.plugin didPreviewClose];
 }
 
 @end

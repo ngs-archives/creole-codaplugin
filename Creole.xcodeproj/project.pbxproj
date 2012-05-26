@@ -10,6 +10,7 @@
 		852FDCC5157018EE00719570 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852FDCC4157018EE00719570 /* WebKit.framework */; };
 		852FDCCA15701BA800719570 /* NME.c in Sources */ = {isa = PBXBuildFile; fileRef = 852FDCC615701BA700719570 /* NME.c */; };
 		852FDCCB15701BA800719570 /* NMEObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 852FDCC915701BA800719570 /* NMEObjC.m */; };
+		852FDCCE157035F700719570 /* Default.css in Resources */ = {isa = PBXBuildFile; fileRef = 852FDCCD157035F700719570 /* Default.css */; };
 		85AF87F0156FED4F00B20241 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AF87EF156FED4F00B20241 /* Cocoa.framework */; };
 		85AF87FA156FED4F00B20241 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85AF87F8156FED4F00B20241 /* InfoPlist.strings */; };
 		85AF884C156FEED800B20241 /* CreolePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AF884B156FEED800B20241 /* CreolePlugin.m */; };
@@ -23,6 +24,7 @@
 		852FDCC715701BA700719570 /* NME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NME.h; sourceTree = "<group>"; };
 		852FDCC815701BA700719570 /* NMEObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMEObjC.h; sourceTree = "<group>"; };
 		852FDCC915701BA800719570 /* NMEObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMEObjC.m; sourceTree = "<group>"; };
+		852FDCCD157035F700719570 /* Default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = Default.css; sourceTree = "<group>"; };
 		85AF87EC156FED4F00B20241 /* Creole.codaplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Creole.codaplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		85AF87EF156FED4F00B20241 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		85AF87F4156FED4F00B20241 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +122,7 @@
 		85AF87F6156FED4F00B20241 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				852FDCCD157035F700719570 /* Default.css */,
 				85AF8849156FEEC400B20241 /* CodaPlugInsController.h */,
 				85AF87F7156FED4F00B20241 /* Creole-Info.plist */,
 				85AF87F8156FED4F00B20241 /* InfoPlist.strings */,
@@ -195,6 +198,7 @@
 			files = (
 				85AF87FA156FED4F00B20241 /* InfoPlist.strings in Resources */,
 				85AF8871157001CA00B20241 /* PreviewWindow.xib in Resources */,
+				852FDCCE157035F700719570 /* Default.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

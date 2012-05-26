@@ -11,6 +11,8 @@
 
 @interface CreolePlugin : NSObject<CodaPlugIn>
 
+@property (strong) NSURL *bundleURL;
 
+- (void)didPreviewClose;
 
 @end

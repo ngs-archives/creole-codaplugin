@@ -14,7 +14,6 @@
 - (id)initWithPlugin:(CreolePlugin *)plugin;
 
 @property (weak) CreolePlugin *plugin;
-@property (readonly) BOOL isWindowOpened;
 @property (weak) IBOutlet WebView *webView;
 
 
