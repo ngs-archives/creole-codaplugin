@@ -1,0 +1,16 @@
+# Creole Wiki Plug-In for [Coda 2][appstore]
+
+## How does it work
+
+![screen][screen]
+
+
+
+This plug-in allows you to create public and private gists from current active document.
+
+## Intalling
+[Download][download], Unzip and Double click, that's all.
+
+[appstore]: http://bit.ly/coda2appstore
+[screen]: http://ngs.github.com/gist-creole/images/screen.png
+[download]: https://github.com/downloads/ngs/creole-codaplugin/Creole.codaplugin-1.0.0.zip
