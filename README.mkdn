@@ -4,13 +4,12 @@
 
 ![screen][screen]
 
-
-
-This plug-in allows you to create public and private gists from current active document.
+This plug-in allows you to preview and generate HTML from [Creole][creole] wiki documents.
 
 ## Intalling
 [Download][download], Unzip and Double click, that's all.
 
 [appstore]: http://bit.ly/coda2appstore
-[screen]: http://ngs.github.com/gist-creole/images/screen.png
+[screen]:   http://ngs.github.com/creole-codaplugin/images/screen.png
 [download]: https://github.com/downloads/ngs/creole-codaplugin/Creole.codaplugin-1.0.0.zip
+[creole]:   http://www.wikicreole.org/
