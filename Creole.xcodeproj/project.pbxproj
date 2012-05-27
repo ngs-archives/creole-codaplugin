@@ -7,42 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85010B1C1572A437004E0579 /* NME.c in Sources */ = {isa = PBXBuildFile; fileRef = 85010B181572A437004E0579 /* NME.c */; };
+		85010B1D1572A437004E0579 /* NMEObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 85010B1B1572A437004E0579 /* NMEObjC.m */; };
+		85010B6D1572A69C004E0579 /* Bundle-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85010B5C1572A69C004E0579 /* Bundle-Debug.xcconfig */; };
+		85010B6E1572A69C004E0579 /* Bundle-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85010B5D1572A69C004E0579 /* Bundle-Release.xcconfig */; };
+		85010B6F1572A69C004E0579 /* Bundle.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85010B5E1572A69C004E0579 /* Bundle.xcconfig */; };
+		85010B701572A69C004E0579 /* Project-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85010B5F1572A69C004E0579 /* Project-Debug.xcconfig */; };
+		85010B711572A69C004E0579 /* Project-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85010B601572A69C004E0579 /* Project-Release.xcconfig */; };
+		85010B721572A69C004E0579 /* Project.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85010B611572A69C004E0579 /* Project.xcconfig */; };
+		85010B731572A69C004E0579 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85010B621572A69C004E0579 /* InfoPlist.strings */; };
+		85010B751572A69C004E0579 /* WikiPreviewWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85010B671572A69C004E0579 /* WikiPreviewWindow.xib */; };
+		85010B761572A69C004E0579 /* WikiPreviewWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85010B691572A69C004E0579 /* WikiPreviewWindowController.m */; };
+		85010B771572A69C004E0579 /* WikiPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 85010B6B1572A69C004E0579 /* WikiPlugin.m */; };
 		852FDCC5157018EE00719570 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852FDCC4157018EE00719570 /* WebKit.framework */; };
-		852FDCCA15701BA800719570 /* NME.c in Sources */ = {isa = PBXBuildFile; fileRef = 852FDCC615701BA700719570 /* NME.c */; };
-		852FDCCB15701BA800719570 /* NMEObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 852FDCC915701BA800719570 /* NMEObjC.m */; };
 		852FDCCE157035F700719570 /* Default.css in Resources */ = {isa = PBXBuildFile; fileRef = 852FDCCD157035F700719570 /* Default.css */; };
 		85AF87F0156FED4F00B20241 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AF87EF156FED4F00B20241 /* Cocoa.framework */; };
-		85AF87FA156FED4F00B20241 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85AF87F8156FED4F00B20241 /* InfoPlist.strings */; };
 		85AF884C156FEED800B20241 /* CreolePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AF884B156FEED800B20241 /* CreolePlugin.m */; };
-		85AF8870157001CA00B20241 /* PreviewWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AF886E157001CA00B20241 /* PreviewWindowController.m */; };
-		85AF8871157001CA00B20241 /* PreviewWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AF886F157001CA00B20241 /* PreviewWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85010B181572A437004E0579 /* NME.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NME.c; sourceTree = "<group>"; };
+		85010B191572A437004E0579 /* NME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NME.h; sourceTree = "<group>"; };
+		85010B1A1572A437004E0579 /* NMEObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMEObjC.h; sourceTree = "<group>"; };
+		85010B1B1572A437004E0579 /* NMEObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMEObjC.m; sourceTree = "<group>"; };
+		85010B5C1572A69C004E0579 /* Bundle-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Bundle-Debug.xcconfig"; sourceTree = "<group>"; };
+		85010B5D1572A69C004E0579 /* Bundle-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Bundle-Release.xcconfig"; sourceTree = "<group>"; };
+		85010B5E1572A69C004E0579 /* Bundle.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Bundle.xcconfig; sourceTree = "<group>"; };
+		85010B5F1572A69C004E0579 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		85010B601572A69C004E0579 /* Project-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		85010B611572A69C004E0579 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		85010B631572A69C004E0579 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85010B661572A69C004E0579 /* CodaPlugInsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodaPlugInsController.h; sourceTree = "<group>"; };
+		85010B671572A69C004E0579 /* WikiPreviewWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikiPreviewWindow.xib; sourceTree = "<group>"; };
+		85010B681572A69C004E0579 /* WikiPreviewWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = WikiPreviewWindowController.h; sourceTree = "<group>"; };
+		85010B691572A69C004E0579 /* WikiPreviewWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiPreviewWindowController.m; sourceTree = "<group>"; };
+		85010B6A1572A69C004E0579 /* WikiPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiPlugin.h; sourceTree = "<group>"; };
+		85010B6B1572A69C004E0579 /* WikiPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiPlugin.m; sourceTree = "<group>"; };
 		852FDCC4157018EE00719570 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		852FDCC615701BA700719570 /* NME.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NME.c; sourceTree = "<group>"; };
-		852FDCC715701BA700719570 /* NME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NME.h; sourceTree = "<group>"; };
-		852FDCC815701BA700719570 /* NMEObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMEObjC.h; sourceTree = "<group>"; };
-		852FDCC915701BA800719570 /* NMEObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMEObjC.m; sourceTree = "<group>"; };
 		852FDCCD157035F700719570 /* Default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = Default.css; sourceTree = "<group>"; };
 		85AF87EC156FED4F00B20241 /* Creole.codaplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Creole.codaplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		85AF87EF156FED4F00B20241 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		85AF87F4156FED4F00B20241 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		85AF87F7156FED4F00B20241 /* Creole-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Creole-Info.plist"; sourceTree = "<group>"; };
-		85AF87F9156FED4F00B20241 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85AF87FB156FED4F00B20241 /* Creole-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Creole-Prefix.pch"; sourceTree = "<group>"; };
-		85AF8805156FEDC900B20241 /* Bundle-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Bundle-Debug.xcconfig"; sourceTree = "<group>"; };
-		85AF8806156FEDC900B20241 /* Bundle-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Bundle-Release.xcconfig"; sourceTree = "<group>"; };
-		85AF8807156FEDC900B20241 /* Bundle.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Bundle.xcconfig; sourceTree = "<group>"; };
-		85AF8808156FEDC900B20241 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
-		85AF8809156FEDC900B20241 /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
-		85AF880A156FEDC900B20241 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		85AF8849156FEEC400B20241 /* CodaPlugInsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodaPlugInsController.h; sourceTree = "<group>"; };
 		85AF884A156FEED800B20241 /* CreolePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreolePlugin.h; sourceTree = "<group>"; };
 		85AF884B156FEED800B20241 /* CreolePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreolePlugin.m; sourceTree = "<group>"; };
-		85AF886D157001CA00B20241 /* PreviewWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewWindowController.h; sourceTree = "<group>"; };
-		85AF886E157001CA00B20241 /* PreviewWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewWindowController.m; sourceTree = "<group>"; };
-		85AF886F157001CA00B20241 /* PreviewWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreviewWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,24 +67,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		852FDCCC15701BC700719570 /* Engine */ = {
+		85010B171572A436004E0579 /* NME */ = {
 			isa = PBXGroup;
 			children = (
-				852FDCC615701BA700719570 /* NME.c */,
-				852FDCC715701BA700719570 /* NME.h */,
-				852FDCC815701BA700719570 /* NMEObjC.h */,
-				852FDCC915701BA800719570 /* NMEObjC.m */,
+				85010B181572A437004E0579 /* NME.c */,
+				85010B191572A437004E0579 /* NME.h */,
+				85010B1A1572A437004E0579 /* NMEObjC.h */,
+				85010B1B1572A437004E0579 /* NMEObjC.m */,
 			);
-			name = Engine;
+			path = NME;
+			sourceTree = "<group>";
+		};
+		85010B591572A69C004E0579 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				85010B5B1572A69C004E0579 /* Configurations */,
+				85010B621572A69C004E0579 /* InfoPlist.strings */,
+				85010B651572A69C004E0579 /* Sources */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		85010B5B1572A69C004E0579 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				85010B5C1572A69C004E0579 /* Bundle-Debug.xcconfig */,
+				85010B5D1572A69C004E0579 /* Bundle-Release.xcconfig */,
+				85010B5E1572A69C004E0579 /* Bundle.xcconfig */,
+				85010B5F1572A69C004E0579 /* Project-Debug.xcconfig */,
+				85010B601572A69C004E0579 /* Project-Release.xcconfig */,
+				85010B611572A69C004E0579 /* Project.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		85010B651572A69C004E0579 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				85010B661572A69C004E0579 /* CodaPlugInsController.h */,
+				85010B671572A69C004E0579 /* WikiPreviewWindow.xib */,
+				85010B681572A69C004E0579 /* WikiPreviewWindowController.h */,
+				85010B691572A69C004E0579 /* WikiPreviewWindowController.m */,
+				85010B6A1572A69C004E0579 /* WikiPlugin.h */,
+				85010B6B1572A69C004E0579 /* WikiPlugin.m */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		85AF87E1156FED4E00B20241 = {
 			isa = PBXGroup;
 			children = (
+				85010B591572A69C004E0579 /* Shared */,
 				85AF87F5156FED4F00B20241 /* Creole */,
 				85AF87EE156FED4F00B20241 /* Frameworks */,
 				85AF87ED156FED4F00B20241 /* Products */,
-				85AF8804156FEDC900B20241 /* Configurations */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,13 +153,10 @@
 		85AF87F5156FED4F00B20241 /* Creole */ = {
 			isa = PBXGroup;
 			children = (
-				852FDCCC15701BC700719570 /* Engine */,
+				85010B171572A436004E0579 /* NME */,
 				85AF87F6156FED4F00B20241 /* Supporting Files */,
 				85AF884A156FEED800B20241 /* CreolePlugin.h */,
 				85AF884B156FEED800B20241 /* CreolePlugin.m */,
-				85AF886D157001CA00B20241 /* PreviewWindowController.h */,
-				85AF886E157001CA00B20241 /* PreviewWindowController.m */,
-				85AF886F157001CA00B20241 /* PreviewWindow.xib */,
 			);
 			path = Creole;
 			sourceTree = "<group>";
@@ -123,25 +165,10 @@
 			isa = PBXGroup;
 			children = (
 				852FDCCD157035F700719570 /* Default.css */,
-				85AF8849156FEEC400B20241 /* CodaPlugInsController.h */,
 				85AF87F7156FED4F00B20241 /* Creole-Info.plist */,
-				85AF87F8156FED4F00B20241 /* InfoPlist.strings */,
 				85AF87FB156FED4F00B20241 /* Creole-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		85AF8804156FEDC900B20241 /* Configurations */ = {
-			isa = PBXGroup;
-			children = (
-				85AF8805156FEDC900B20241 /* Bundle-Debug.xcconfig */,
-				85AF8806156FEDC900B20241 /* Bundle-Release.xcconfig */,
-				85AF8807156FEDC900B20241 /* Bundle.xcconfig */,
-				85AF8808156FEDC900B20241 /* Project-Debug.xcconfig */,
-				85AF8809156FEDC900B20241 /* Project-Release.xcconfig */,
-				85AF880A156FEDC900B20241 /* Project.xcconfig */,
-			);
-			path = Configurations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,9 +223,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85AF87FA156FED4F00B20241 /* InfoPlist.strings in Resources */,
-				85AF8871157001CA00B20241 /* PreviewWindow.xib in Resources */,
 				852FDCCE157035F700719570 /* Default.css in Resources */,
+				85010B6D1572A69C004E0579 /* Bundle-Debug.xcconfig in Resources */,
+				85010B6E1572A69C004E0579 /* Bundle-Release.xcconfig in Resources */,
+				85010B6F1572A69C004E0579 /* Bundle.xcconfig in Resources */,
+				85010B701572A69C004E0579 /* Project-Debug.xcconfig in Resources */,
+				85010B711572A69C004E0579 /* Project-Release.xcconfig in Resources */,
+				85010B721572A69C004E0579 /* Project.xcconfig in Resources */,
+				85010B731572A69C004E0579 /* InfoPlist.strings in Resources */,
+				85010B751572A69C004E0579 /* WikiPreviewWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,19 +259,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				85AF884C156FEED800B20241 /* CreolePlugin.m in Sources */,
-				85AF8870157001CA00B20241 /* PreviewWindowController.m in Sources */,
-				852FDCCA15701BA800719570 /* NME.c in Sources */,
-				852FDCCB15701BA800719570 /* NMEObjC.m in Sources */,
+				85010B1C1572A437004E0579 /* NME.c in Sources */,
+				85010B1D1572A437004E0579 /* NMEObjC.m in Sources */,
+				85010B761572A69C004E0579 /* WikiPreviewWindowController.m in Sources */,
+				85010B771572A69C004E0579 /* WikiPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		85AF87F8156FED4F00B20241 /* InfoPlist.strings */ = {
+		85010B621572A69C004E0579 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				85AF87F9156FED4F00B20241 /* en */,
+				85010B631572A69C004E0579 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -248,28 +282,28 @@
 /* Begin XCBuildConfiguration section */
 		85AF87FC156FED4F00B20241 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85AF8808156FEDC900B20241 /* Project-Debug.xcconfig */;
+			baseConfigurationReference = 85010B5F1572A69C004E0579 /* Project-Debug.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		85AF87FD156FED4F00B20241 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85AF8809156FEDC900B20241 /* Project-Release.xcconfig */;
+			baseConfigurationReference = 85010B601572A69C004E0579 /* Project-Release.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
 		};
 		85AF87FF156FED4F00B20241 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85AF8805156FEDC900B20241 /* Bundle-Debug.xcconfig */;
+			baseConfigurationReference = 85010B5C1572A69C004E0579 /* Bundle-Debug.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		85AF8800156FED4F00B20241 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85AF8806156FEDC900B20241 /* Bundle-Release.xcconfig */;
+			baseConfigurationReference = 85010B5D1572A69C004E0579 /* Bundle-Release.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
