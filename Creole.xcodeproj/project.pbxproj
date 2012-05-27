@@ -9,12 +9,6 @@
 /* Begin PBXBuildFile section */
 		85010B1C1572A437004E0579 /* NME.c in Sources */ = {isa = PBXBuildFile; fileRef = 85010B181572A437004E0579 /* NME.c */; };
 		85010B1D1572A437004E0579 /* NMEObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 85010B1B1572A437004E0579 /* NMEObjC.m */; };
-		85010B6D1572A69C004E0579 /* Bundle-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85010B5C1572A69C004E0579 /* Bundle-Debug.xcconfig */; };
-		85010B6E1572A69C004E0579 /* Bundle-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85010B5D1572A69C004E0579 /* Bundle-Release.xcconfig */; };
-		85010B6F1572A69C004E0579 /* Bundle.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85010B5E1572A69C004E0579 /* Bundle.xcconfig */; };
-		85010B701572A69C004E0579 /* Project-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85010B5F1572A69C004E0579 /* Project-Debug.xcconfig */; };
-		85010B711572A69C004E0579 /* Project-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85010B601572A69C004E0579 /* Project-Release.xcconfig */; };
-		85010B721572A69C004E0579 /* Project.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 85010B611572A69C004E0579 /* Project.xcconfig */; };
 		85010B731572A69C004E0579 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85010B621572A69C004E0579 /* InfoPlist.strings */; };
 		85010B751572A69C004E0579 /* WikiPreviewWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85010B671572A69C004E0579 /* WikiPreviewWindow.xib */; };
 		85010B761572A69C004E0579 /* WikiPreviewWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85010B691572A69C004E0579 /* WikiPreviewWindowController.m */; };
@@ -39,7 +33,7 @@
 		85010B631572A69C004E0579 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85010B661572A69C004E0579 /* CodaPlugInsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodaPlugInsController.h; sourceTree = "<group>"; };
 		85010B671572A69C004E0579 /* WikiPreviewWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikiPreviewWindow.xib; sourceTree = "<group>"; };
-		85010B681572A69C004E0579 /* WikiPreviewWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = WikiPreviewWindowController.h; sourceTree = "<group>"; };
+		85010B681572A69C004E0579 /* WikiPreviewWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiPreviewWindowController.h; sourceTree = "<group>"; };
 		85010B691572A69C004E0579 /* WikiPreviewWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiPreviewWindowController.m; sourceTree = "<group>"; };
 		85010B6A1572A69C004E0579 /* WikiPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiPlugin.h; sourceTree = "<group>"; };
 		85010B6B1572A69C004E0579 /* WikiPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiPlugin.m; sourceTree = "<group>"; };
@@ -224,12 +218,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				852FDCCE157035F700719570 /* Default.css in Resources */,
-				85010B6D1572A69C004E0579 /* Bundle-Debug.xcconfig in Resources */,
-				85010B6E1572A69C004E0579 /* Bundle-Release.xcconfig in Resources */,
-				85010B6F1572A69C004E0579 /* Bundle.xcconfig in Resources */,
-				85010B701572A69C004E0579 /* Project-Debug.xcconfig in Resources */,
-				85010B711572A69C004E0579 /* Project-Release.xcconfig in Resources */,
-				85010B721572A69C004E0579 /* Project.xcconfig in Resources */,
 				85010B731572A69C004E0579 /* InfoPlist.strings in Resources */,
 				85010B751572A69C004E0579 /* WikiPreviewWindow.xib in Resources */,
 			);
