@@ -11,5 +11,5 @@ This plug-in allows you to preview and generate HTML from [Creole][creole] wiki 
 
 [appstore]: http://bit.ly/coda2appstore
 [screen]:   http://ngs.github.com/creole-codaplugin/images/screen.png
-[download]: https://github.com/downloads/ngs/creole-codaplugin/Creole.codaplugin-1.0.0.zip
+[download]: https://github.com/ngs/creole-codaplugin/downloads
 [creole]:   http://www.wikicreole.org/
